@@ -1,0 +1,44 @@
+T vs m
+import matplotlib.pyplot as plt
+
+# Datos
+x = [0.05, 0.0995, 0.1496, 0.1695, 0.1795, 0.1895]
+y = [0.401, 0.569, 0.691, 0.734, 0.763, 0.801]
+
+# Crear la grafica
+plt.plot(x, y, marker='o', linestyle='-', color='b', label='Datos')
+
+# Agregar etiquetas a los ejes y titulo
+plt.xlabel('M (masa en kilos)')
+plt.ylabel('T (periodo en segundos)')
+plt.title('Grafica T vs M')
+
+# Agregar una leyenda
+plt.legend()
+
+# Mostrar la gráfica
+plt.grid(True)
+plt.show()
+
+////////////////////////////////////////////////////////////////////////////////////////////
+T2 vs m
+import matplotlib.pyplot as plt
+
+# Datos
+x = [0.05, 0.0995, 0.1496, 0.1695, 0.1795, 0.1895]
+y = [0.160801,0.323761,0.477481,0.538756,0.582169,0.641601]
+
+# Crear la grafica
+plt.plot(x, y, marker='o', linestyle='-', color='b', label='Datos')
+
+# Agregar etiquetas a los ejes y titulo
+plt.xlabel('M (masa en kilos)')
+plt.ylabel('T (periodo en segundos)')
+plt.title('Grafica T^2 vs M')
+
+# Agregar una leyenda
+plt.legend()
+
+# Mostrar la gráfica
+plt.grid(True)
+plt.show()
